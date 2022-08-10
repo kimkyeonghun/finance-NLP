@@ -21,11 +21,11 @@ Text 데이터는 금융 분야에서 시계열 데이터만큼 중요하게 사
 ## Finance-NLP Papers
 
 ### Market Analysis
-- (EMNLP 2020) Deep Attentive Learning for Stock Movement Prediction From Social Media Text and Company Correlations
-- (EACL 2021) FAST: Financial News and Tweet Based Time Aware Network for Stock Trading
-- (ACL 2022) Incorporating Stock Market Signals for Twitter Stance Detection
+- (EMNLP 2020) [Deep Attentive Learning for Stock Movement Prediction From Social Media Text and Company Correlations](https://aclanthology.org/2020.emnlp-main.676/)
+- (EACL 2021) [FAST: Financial News and Tweet Based Time Aware Network for Stock Trading](https://aclanthology.org/2021.eacl-main.185/)
+- (ACL 2022) [Incorporating Stock Market Signals for Twitter Stance Detection](https://aclanthology.org/2022.acl-long.281.pdf)
     - M&A와 관련 있는 회사들(구매자, 피구매자)의 주가 Trend를 Tweet 데이터를 통해 예측
-- (ACL 2022) Guided Attention Multimodal Multitask Financial Forecasting with Inter-Company Relationships and Global and Local News
+- (ACL 2022) [Guided Attention Multimodal Multitask Financial Forecasting with Inter-Company Relationships and Global and Local News](https://aclanthology.org/2022.acl-long.437.pdf)
 
 ### Risk Management
 - (ALTA 2015) Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment
