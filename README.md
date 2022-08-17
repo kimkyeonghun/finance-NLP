@@ -28,42 +28,42 @@ Text 데이터는 금융 분야에서 시계열 데이터만큼 중요하게 사
 - (ACL 2022) [Guided Attention Multimodal Multitask Financial Forecasting with Inter-Company Relationships and Global and Local News](https://aclanthology.org/2022.acl-long.437.pdf)
 
 ### Risk Management
-- (ALTA 2015) Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment
+- (ALTA 2015) [Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment](https://aclanthology.org/U15-1010.pdf)
     - Finance NER
 
 ### Sentiment Analysis
-- Nguyen, T. H., & Shirai, K. Topic modeling based sentiment analysis on social media for stock market prediction,  IJCNLP 2015
-- Tobias Daudert, Paul Buitelaar and Sapna Negi. Leveraging News Sentiment to Improve Microblog Sentiment Classification in the Financial Domain. In ACL-ECONLP, 2018.
-- Dogu Araci, FinBERT: Financial Sentiment Analysis with Pre-trained Language Models, arxiv.org(2019)
+- (IJCNLP 2015) Nguyen, T. H., & Shirai, K. [Topic modeling based sentiment analysis on social media for stock market prediction](https://aclanthology.org/P15-1131.pdf)
+- (ACL-ECONLP 2018) Tobias Daudert, Paul Buitelaar and Sapna Negi. [Leveraging News Sentiment to Improve Microblog Sentiment Classification in the Financial Domain](https://www.aclweb.org/anthology/W18-3107/).
+- Dogu Araci, [FinBERT: Financial Sentiment Analysis with Pre-trained Language Models](https://arxiv.org/abs/1908.10063), arxiv.org(2019)
 
 ### Pre-trained Model(PLM)
-- (ACL 2022) Buy Tesla, Sell Ford: Assessing Implicit Stock Market Preference in Pre-trained Language Models
+- (ACL 2022) [Buy Tesla, Sell Ford: Assessing Implicit Stock Market Preference in Pre-trained Language Models](https://aclanthology.org/2022.acl-short.12.pdf)
     - 언어 모델은 streotype을 가지고 있고, 이는 FinBERT에서도 발견
         - 대부분 시장 상황을 긍정적으로 보고 있으며, 일부 종목들에 대해서는 완전 부정적으로 판단
     - 편향된 LM 모델로 추론을 진행하면 틀린 결론을 얻을 수 있음
         - positive가 많기 때문에, 부적절한 종목에 대해 buy라고 할 수 있음
     - 논문에서는 데이터셋을 잘 정제할 필요성에 대해 언급하고 있으며, 실험 결과를 보면 엄청 심각해 보이지는 않음
 ### Customer Engagement
-- (EMNLP 2021) FINQA: A Dataset of Numerical Reasoning over Financial Data
+- (EMNLP 2021) [FINQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/pdf/2109.00122.pdf)
         - S&P 500 report에서 QA 데이터셋 구축 및 모델 연구
         - JP Morgan
-- (ACL 2021) TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance
+- (ACL 2021) [TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance](https://arxiv.org/pdf/2105.07624.pdf)
 ### Forex(Exchange Rate)
-- (IEEE Access) BERTFOREX: Cascading Model for Forex Market Forecasting Using Fundamental and Technical Indicator Data Based on BERT
-- (Soft Computing) Foreign exchange currency rate prediction using a GRU-LSTM hybrid network
+- (IEEE Access) [BERTFOREX: Cascading Model for Forex Market Forecasting Using Fundamental and Technical Indicator Data Based on BERT](https://ieeexplore.ieee.org/document/9715051)
+- (Soft Computing) [Foreign exchange currency rate prediction using a GRU-LSTM hybrid network](https://www.sciencedirect.com/science/article/pii/S2666222120300083)
 ### Fi-NER
-- (ALTA 2015) Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment
+- (ALTA 2015) [Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment](https://aclanthology.org/U15-1010.pdf)
     - Finance NER
-- (Springer 2021) Extraction and Representation of Financial Entities from Text
-- (arxiv 2022) FinBERT-MRC: financial named entity recognition using BERT under the machine reading comprehension paradigm
+- (Springer 2021) [Extraction and Representation of Financial Entities from Text](https://www.researchgate.net/publication/352271164_Extraction_and_Representation_of_Financial_Entities_from_Text)
+- (arxiv 2022) [FinBERT-MRC: financial named entity recognition using BERT under the machine reading comprehension paradigm](https://arxiv.org/abs/2205.15485)
     - 중국어 Dataset임
-- (ACL 2022) FiNER: Financial Numeric Entity Recognition for XBRL Tagging
+- (ACL 2022) [FiNER: Financial Numeric Entity Recognition for XBRL Tagging](https://aclanthology.org/2022.acl-long.303/)
 ### Few-shot NER
 Few-shot NER은 데이터 부족 및 entity가 꾸준하게 변하는 문제를 해결하기 위해 연구되는 분야.<br>
 Finance domain은 아니지만, Few-shot NER이 small sample domain에 적용할 수 있고, Finance data가 이에 해당하기 때문에 작성
-- (EMNLP 2021) Few-Shot Named Entity Recognition: A Comprehensive Study
-- (ACL 2021) Few-NERD: A Few-Shot Named Entity Recognition Dataset
-- (RepL4NLP 2022) A Comparative Study of Pre-trained Encoders for Low-Resource Named Entity Recognition
+- (EMNLP 2021) [Few-Shot Named Entity Recognition: A Comprehensive Study](https://aclanthology.org/2021.emnlp-main.813.pdf)
+- (ACL 2021) [Few-NERD: A Few-Shot Named Entity Recognition Dataset](https://aclanthology.org/2021.acl-long.248/)
+- (RepL4NLP 2022)[A Comparative Study of Pre-trained Encoders for Low-Resource Named Entity Recognition](https://aclanthology.org/2022.repl4nlp-1.6/)
 
 ## Finance-NLP dataset & Corpus
 1. Semeval 2017 Task 5
