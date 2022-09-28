@@ -51,6 +51,12 @@ Text 데이터는 금융 분야에서 시계열 데이터만큼 중요하게 사
 ### Forex(Exchange Rate)
 - (IEEE Access) [BERTFOREX: Cascading Model for Forex Market Forecasting Using Fundamental and Technical Indicator Data Based on BERT](https://ieeexplore.ieee.org/document/9715051)
 - (Soft Computing) [Foreign exchange currency rate prediction using a GRU-LSTM hybrid network](https://www.sciencedirect.com/science/article/pii/S2666222120300083)
+
+### Relation Extraction
+- (FinNLP2022) [No Stock is an Island: Learning Internal and Relational Attributes of Stocks with Contrastive Learning](https://mx.nthu.edu.tw/~chungchichen/FinNLP2022_IJCAI/1.pdf)
+
+- (FinNLP2022) [How Can a Teacher Make Learning From Sparse Data Softer? Application to Business Relation Extraction](https://mx.nthu.edu.tw/~chungchichen/FinNLP2022_IJCAI/4.pdf)
+
 ### Fi-NER
 - (ALTA 2015) [Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment](https://aclanthology.org/U15-1010.pdf)
     - Finance NER
@@ -58,6 +64,8 @@ Text 데이터는 금융 분야에서 시계열 데이터만큼 중요하게 사
 - (arxiv 2022) [FinBERT-MRC: financial named entity recognition using BERT under the machine reading comprehension paradigm](https://arxiv.org/abs/2205.15485)
     - 중국어 Dataset임
 - (ACL 2022) [FiNER: Financial Numeric Entity Recognition for XBRL Tagging](https://aclanthology.org/2022.acl-long.303/)
+- (FinNLP 2022) [AdaK-NER: An Adaptive Top-K Approach for Named Entity Recognition with Incomplete Annotations](https://mx.nthu.edu.tw/~chungchichen/FinNLP2022_IJCAI/7.pdf)
+
 ### Few-shot NER
 Few-shot NER은 데이터 부족 및 entity가 꾸준하게 변하는 문제를 해결하기 위해 연구되는 분야.<br>
 Finance domain은 아니지만, Few-shot NER이 small sample domain에 적용할 수 있고, Finance data가 이에 해당하기 때문에 작성
@@ -89,3 +97,17 @@ Finance domain은 아니지만, Few-shot NER이 small sample domain에 적용할
         - 2022.07.15 기준 가장 최신 SEC File 기반 corpus
 6. Finance Numeric Entity dataset(Fi-NER 139)
     - https://huggingface.co/datasets/nlpaueb/finer-139
+
+7. ~~한글 wikipedia model 및 dataset(사라짐)~~
+    - ~~GPT2용 모델 및 데이터셋~~
+    - ~~https://huggingface.co/datasets/eaglewatch/korean_wikipedia_dataset_for_GPT2~~
+8. 금융 관련 데이터 API
+    - https://site.financialmodelingprep.com/developer/docs
+    - 무료버전도 있긴 하지만 제한없이 사용하려면 유료
+9. Financial Earning Conference Calls (ECCs)
+    - https://github.com/Alaa-Ah/The-FinArg-Dataset-Argument-Mining-in-Financial-Earnings-Calls
+10. ESG 관련 데이터
+    - https://mx.nthu.edu.tw/~chungchichen/FinNLP2022_IJCAI/9.pdf
+        - FinNLP에서 챌린지로 오픈한 데이터셋
+        - ESG concept 분류, sustainable/unsustainable을 분류하는 task가 포함되어 있음
+        - 데이터의 양은 많지 않음
