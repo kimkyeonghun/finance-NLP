@@ -111,3 +111,20 @@ Finance domain은 아니지만, Few-shot NER이 small sample domain에 적용할
         - FinNLP에서 챌린지로 오픈한 데이터셋
         - ESG concept 분류, sustainable/unsustainable을 분류하는 task가 포함되어 있음
         - 데이터의 양은 많지 않음
+11. Aspect-Based Sentimetn Analyis
+    - https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news
+    - 10,700개 정도의 news headline 데이터와 라벨링이 있으며, 그 중 2,800개 정도는 multi-labeling이 되어 있음
+    - 라벨링은 (Aspect, sentiment) 로 구성되어 있음
+12. 국내 News 데이터
+    - https://www.bigkinds.or.kr/v2/news/index.do
+    - 위 사이트에서 옵션을 설정하면 뉴스들을 조회할 수 있고, 최대 2만개 데이터에 대해 다운로드 가능
+13. 나무 위키 데이터
+    - title-sentence 형태로 구성되어 있는 것으로 보임
+    - 데이터: https://huggingface.co/datasets/heegyu/namuwiki-extracted
+    - 파싱: https://github.com/jonghwanhyeon/namu-wiki-extractor
+14. 머니스테이션
+    - stocktwiw의 국내 버전으로 보임
+    - 국내 유동성의 문제? 혹은 아직 유명하지 않은 문제로 인해 피드가 많지는 않음
+    - 종목, sentiment가 각 피드에 태깅되어 있음
+    - https://www.moneystation.net/main
+
