@@ -43,6 +43,9 @@ Text 데이터는 금융 분야에서 시계열 데이터만큼 중요하게 사
     - 편향된 LM 모델로 추론을 진행하면 틀린 결론을 얻을 수 있음
         - positive가 많기 때문에, 부적절한 종목에 대해 buy라고 할 수 있음
     - 논문에서는 데이터셋을 잘 정제할 필요성에 대해 언급하고 있으며, 실험 결과를 보면 엄청 심각해 보이지는 않음
+- (SIGIR 2022) [Structure and Semantics Preserving Document Representations](https://dl.acm.org/doi/10.1145/3477495.3532062)
+    - document representation을 만드는 방법론
+    - 기존 negative sampling으로 표현되는 triplet loss에 추가적으로 "구조적으로" 유사한가? 라는 loss를 추가하여 Quintuplet loss를 구축하여 학습
 ### Customer Engagement
 - (EMNLP 2021) [FINQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/pdf/2109.00122.pdf)
         - S&P 500 report에서 QA 데이터셋 구축 및 모델 연구
