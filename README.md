@@ -130,4 +130,23 @@ Finance domain은 아니지만, Few-shot NER이 small sample domain에 적용할
     - 국내 유동성의 문제? 혹은 아직 유명하지 않은 문제로 인해 피드가 많지는 않음
     - 종목, sentiment가 각 피드에 태깅되어 있음
     - https://www.moneystation.net/main
+15. Financial News Headlines
+    - https://www.kaggle.com/datasets/notlucasp/financial-news-headlines
+    - 약 2017~2020년까지의 News 헤드라인
+16. KorFin-ABSA
+    - 한국어 금융 ABSA 데이터셋, 약 15000개 정도의 sample이 있음
+    - https://huggingface.co/datasets/amphora/korfin-asc
+17. Financial News Topic
+     - https://huggingface.co/datasets/zeroshot/twitter-financial-news-topic
+18. Twit sentiment
+    - https://github.com/jpmcair/tweetfinsent
+    - JP Morgan에서 만든 데이터
+    - Tweet ID만 있는데, Twitter API를 통해 원문을 수집해야 함
+19. FLANG
+    - https://github.com/SALT-NLP/FLANG
+https://aclanthology.org/2022.emnlp-main.148.pdf
+    - JP Morgan에서 만든 finance domain 모델
+    - 여러 Dataset도 다 모아뒀음
+    - ELECTRA 모델은 뭔가 문제가 있어서 load가 불가능하고, 사용시 약간의 fine-tuning을 진행하면 되는듯
+        - 약 2 epoch 정도?
 
